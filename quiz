@@ -2,5 +2,7 @@
 <html>
 <head>
 <title>Quiz</title>
+<link href="style.css" rel="stylesheet">
+<script scr="main.js"></script>
 </head>
 </html>

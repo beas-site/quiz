@@ -22,7 +22,7 @@ populate();
 
 function showScores() {
 var gameOverHtml = "<h1>Result</h1>";
-gameOverHtml += "<h2 id='score'>Your scores: " + quiz.score + "</h2>";
+gameOverHtml += "<h2 id="score">Your scores: " + quiz.score + "</h2>";
 var element = document.getElementById("quiz");
 element.innerHMTL = gameOverHtml;
 };

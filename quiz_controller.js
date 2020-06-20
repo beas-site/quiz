@@ -8,3 +8,6 @@ Quiz.prototype.getQuestionIndex = function() {
 return this.questions[this.questionIndex];
 }
 
+Quiz.prototype.isEnded = function () {
+return this.questions.length === this.questionIndex;
+}

@@ -6,6 +6,12 @@ else {
 var element = document.getElementById("question");
 element.innerHMTL = quiz.getQuestionIndex().text;
 
+var choices = quiz.getQuestionIndex().choices;
+for(var i = 0; i < choices.length; i++) {
+var element = document.getElememtById("choice" +1);
+element.innerHMTL = choices[i];
+guess("btn" + i, choices[i]);
+  
 function guess(id, guess) {
 var button = document.getElememtById(id);
 button.onclick = function(){

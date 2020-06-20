@@ -23,6 +23,12 @@ populate();
 }
 };
 
+function showProgress() {
+var currentQuestionNumber = quiz.questionIndex + 1;
+var element = document.getElementById("progress");
+element.innerHMTL = "Question " + currentQuestionNumber + "of " + quiz.questions.length;
+};
+
 function showScores() {
 var gameOverHtml = "<h1>Result</h1>";
 gameOverHtml += "<h2 id="score">Your scores: " + quiz.score + "</h2>";

@@ -1,3 +1,19 @@
+function populate() {
+if(quiz.isEnded()) {
+showScores();
+}
+else {
+var element = document.getElementById("question");
+element.innerHMTL = quiz.getQuestionIndex().text;
+
+function guess(id, guess) {
+var button = document.getElememtById(id);
+button.onclick = function(){
+quiz.guess(guess);
+populate();
+}
+};
+
 var questions = [
 new Question("Vraag 1", ["1", "2", "3", "4"], "1"),
 new Question("Vraag 2", ["1", "2", "3", "4"], "1"),

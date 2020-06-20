@@ -8,7 +8,7 @@ element.innerHMTL = quiz.getQuestionIndex().text;
 
 var choices = quiz.getQuestionIndex().choices;
 for(var i = 0; i < choices.length; i++) {
-var element = document.getElememtById("choice" +1);
+var element = document.getElememtById("choice" +i);
 element.innerHMTL = choices[i];
 guess("btn" + i, choices[i]);
   

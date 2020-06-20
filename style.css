@@ -22,3 +22,9 @@ color: #fff;
 padding: 2px 0px;
 border-radius: 50px;
 }
+
+.grid #question {
+font-family: sans-serif;
+font-size: 30px;
+color: #5a6772;
+}

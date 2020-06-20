@@ -18,4 +18,4 @@ this.score++;
 }
   this.questionIndex++;
 
-};
+}

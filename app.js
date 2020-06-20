@@ -12,6 +12,7 @@ var element = document.getElememtById("choice" +i);
 element.innerHMTL = choices[i];
 guess("btn" + i, choices[i]);
   }
+  showProgress();
  }
 };
 

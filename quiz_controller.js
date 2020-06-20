@@ -12,6 +12,10 @@ Quiz.prototype.isEnded = function () {
 return this.questions.length === this.questionIndex;
 }
 
-Question.prototype.correctAnswer = function(choices) {
-return choice === this.answer;
+Quiz.prototype.guess = function(answer) {
+this.questionIndex++;
+
+if (this.getQuestionIndex().correctAnswer(answer)) {
+this.score++;
+}
 }

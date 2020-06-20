@@ -18,7 +18,14 @@ button.onclick = function(){
 quiz.guess(guess);
 populate();
 }
-}
+};
+
+function showScores() {
+var gameOverHtml = "<h1>Result</h1>";
+gameOverHtml += "<h2 id='score'>Your scores: " + quiz.score + "</h2>";
+var element = document.getElementById("quiz");
+element.innerHMTL = gameOverHtml;
+};
 
 var questions = [
 new Question("Vraag 1", ["1", "2", "3", "4"], "1"),

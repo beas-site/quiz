@@ -7,3 +7,5 @@ new Question("Vraag 5", ["1", "2", "3", "4"], "1")
 ];
 
 var quiz = new Quiz(questions);
+
+populate();

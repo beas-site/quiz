@@ -90,7 +90,7 @@ outline: 0;
       </footer>
   </div>
  </div>
-  <script src="quiz_controller.js">
+  <script>
   function Quiz(questions) {
 this.score = 0;
 this.questions = questions;
@@ -113,7 +113,7 @@ this.score++;
 
 }
   </script>
-  <script src="question.js">
+  <script>
   function Question(text, choices, answer) {
 this.text = text;
 this.choices = choices;
@@ -124,7 +124,7 @@ Question.prototype.correctAnswer = function(choices) {
 return choice === this.answer;
 };
   </script>
-  <script src="app.js">
+  <script>
   function populate() {
 if(quiz.isEnded()) {
 showScores();

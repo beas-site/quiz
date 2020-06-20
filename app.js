@@ -11,7 +11,10 @@ for(var i = 0; i < choices.length; i++) {
 var element = document.getElememtById("choice" +i);
 element.innerHMTL = choices[i];
 guess("btn" + i, choices[i]);
-  
+  }
+ }
+};
+
 function guess(id, guess) {
 var button = document.getElememtById(id);
 button.onclick = function(){

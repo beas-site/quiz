@@ -18,7 +18,7 @@ button.onclick = function(){
 quiz.guess(guess);
 populate();
 }
-};
+}
 
 var questions = [
 new Question("Vraag 1", ["1", "2", "3", "4"], "1"),

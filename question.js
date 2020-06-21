@@ -5,5 +5,5 @@ this.answer = answer;
 };
 
 Question.prototype.correctAnswer = function(choices) {
-return choice === this.answer;
+return choices === this.answer;
 };

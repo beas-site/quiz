@@ -6,7 +6,7 @@ function check(){
 	var correct = 0;
 
 
-	if (question1 == "Mobiel_verkeersleider") {
+	if (question1 == "Mobiel verkeersleider") {
 		correct++;
 }
 	if (question2 == "Ja") {

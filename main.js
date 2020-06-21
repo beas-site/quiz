@@ -9,7 +9,7 @@ function check(){
 	if (question1 == "Mobiel_verkeersleider") {
 		correct++;
 }
-	if (question2 == "Hartford") {
+	if (question2 == "Ja") {
 		correct++;
 }	
 	if (question3 == "Albany") {

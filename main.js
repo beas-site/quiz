@@ -1,3 +1,3 @@
 function check() {
-alert("You won a million dollars !!!");
+alert("You've won a million dollars !!!");
 }

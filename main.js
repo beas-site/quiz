@@ -14,6 +14,6 @@ function check() {
     correct++;
   }
   
-document.getElementById("after_submit").style.visibilty = visible;
+document.getElementById("after_submit").style.visibilty = "visible";
 document.getElementById("number_correct").innerHMTL = "Je hebt " + correct + " goed.";
 }

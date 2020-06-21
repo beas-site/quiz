@@ -4,13 +4,13 @@ function check() {
   var question3 = document.quiz.question3.value;
   var correct = 0;
   
-  if(question1 === "Amsterdam") {
+  if(question1 == "Amsterdam") {
     correct++;
   }
-  if(question2 === "optie1") {
+  if(question2 == "optie1") {
     correct++;
   }
-  if(question3 === "optie3") {
+  if(question3 == "optie3") {
     correct++;
   }
   

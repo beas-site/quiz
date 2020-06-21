@@ -1,3 +1,3 @@
 function check() {
-alert("You've won a million dollars !!!");
+document.getElementById("after_submit").style.visibilty = "visible";
 }

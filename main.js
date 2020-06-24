@@ -9,9 +9,6 @@ function check(){
 	if (question1 == "Mobiel verkeersleider") {
 		correct++;
 }
-	if (question1 == "Mobiel verkeersleider" && question2 == "Ja") {
-		document.getElementById("number_correct").innerHTML = "Als de veroorzaker van de schadevaring bekend is moet je vaarverbod instellen. Heb je een vaarverbod ingesteld?";
-}
 	if (question2 == "Ja") {
 		correct++;
 }	

@@ -20,7 +20,7 @@ function check(){
 	}
 	
 	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
-	var messages = ["Great job!", "That's just okay", "You really need to do better"];
+	var messages = ["Dit zijn je instructies"];
 	var score;
 
 	if (correct == 0) {
